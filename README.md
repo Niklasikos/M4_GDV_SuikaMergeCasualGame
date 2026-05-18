@@ -25,3 +25,15 @@ goede ideen om het leuk te maken
 
 het is een game gelijk aan het suika merge game,
 Het doel is gelijkmatige ballen te combineren om grotere ballen te krijgen.
+
+## Feedbacklagen 
+
+Toets A&D (Input) -> Beweging(Actie) -> beweging van de dropper (Gevolg) -> zichtbare beweging (Feedback)
+
+Space Toets (Input) -> Drop(Actie) -> Dropt een bal(Gevolg) -> een Nieuwe zichtbare bal wordt gespawned (Feedback)
+
+Enter Toets (Input) -> Restart(Actie) -> Restart de Scene(Gevolg) -> Het Game begint opnieuw(Feedback)
+
+> De Goede Feedbacklagen:
+
+Drop Ball (Input) -> ball aan het droppen en merged met een gelijkmatige ball (Actie) -> een grotere ball spawnt (gevolg) -> Punten komen erbij bij de score text(Feedback)
