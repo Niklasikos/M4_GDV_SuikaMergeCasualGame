@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private TextMeshProUGUI scoretext;
     [SerializeField] private TextMeshProUGUI multipliertext;
+    [SerializeField] private GameObject WinUi;
     [SerializeField] private GameObject ballSize1;
     [SerializeField] private GameObject ballSize2;
     [SerializeField] private GameObject ballSize3;
@@ -81,5 +82,12 @@ public class PlayerController : MonoBehaviour
     {
         score+=punten;
         scoretext.text = $"Score: {score}";
+    }
+
+    public void Won()
+    {
+        gameOver = true;
+        Time.timeScale = 0;
+        WinUi.SetActive(true);
     }
 }

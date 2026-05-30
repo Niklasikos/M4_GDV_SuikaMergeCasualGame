@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4616728212589909228
+--- !u!1 &8195436759006434244
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3397656377741378257}
-  - component: {fileID: 1661255600694613075}
-  - component: {fileID: 5767692842398252494}
-  - component: {fileID: 2051938103675488325}
-  - component: {fileID: 4011249777984673281}
+  - component: {fileID: 1973713518812635767}
+  - component: {fileID: 7514574205170974802}
+  - component: {fileID: 4762377896893246040}
+  - component: {fileID: 3394984846112454683}
+  - component: {fileID: 3558510768688729489}
   m_Layer: 0
-  m_Name: BallSize2
-  m_TagString: Ball2
+  m_Name: BallSize9
+  m_TagString: Ball9
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3397656377741378257
+--- !u!4 &1973713518812635767
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4616728212589909228}
+  m_GameObject: {fileID: 8195436759006434244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1661255600694613075
+--- !u!212 &7514574205170974802
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4616728212589909228}
+  m_GameObject: {fileID: 8195436759006434244}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 376c773a9e9d24b88911a746c12f402b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa59d5e14765c904aa2bcd45880d8fef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,13 +94,13 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!58 &5767692842398252494
+--- !u!58 &4762377896893246040
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4616728212589909228}
+  m_GameObject: {fileID: 8195436759006434244}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -130,14 +130,14 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!50 &2051938103675488325
+--- !u!50 &3394984846112454683
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4616728212589909228}
+  m_GameObject: {fileID: 8195436759006434244}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -157,18 +157,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4011249777984673281
+--- !u!114 &3558510768688729489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4616728212589909228}
+  m_GameObject: {fileID: 8195436759006434244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88a07208279f4b44998106711e226bff, type: 3}
+  m_Script: {fileID: 11500000, guid: 922bc142238b99f42b80bdcd237a2706, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Ball2
-  ballSize3: {fileID: 267580396158306840, guid: 11ff902ce992b7a4e9a94cd690d3e39f, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Ball9
+  ballSize10: {fileID: 3104252863108103633, guid: 8764aadfb25142940ba9333a27cbec6a, type: 3}
   pointsEffect: {fileID: 8414850909416702857, guid: 0be884913647fc94185707fa0cd1c15f, type: 3}
-  punten: 75
+  punten: 225

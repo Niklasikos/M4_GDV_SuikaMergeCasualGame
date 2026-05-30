@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8494121718262208877}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.14}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -170,3 +170,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   ballSize2: {fileID: 4616728212589909228, guid: 989530842d91a65ad993ff61285d7681, type: 3}
+  pointsEffect: {fileID: 8414850909416702857, guid: 0be884913647fc94185707fa0cd1c15f, type: 3}
+  punten: 50

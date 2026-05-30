@@ -11,6 +11,9 @@ TagManager:
   - Ball5
   - Ball6
   - Ball7
+  - Ball8
+  - Ball9
+  - Ball10
   layers:
   - Default
   - TransparentFX
