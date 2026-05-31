@@ -19,8 +19,9 @@ public class Ball3 : MonoBehaviour
             Destroy(collision.gameObject);
             GameObject Ball4 = Instantiate(ballSize4, new Vector3(pos.x, pos.y, pos.z), quaternion.identity);
             GameObject points = Instantiate(pointsEffect, new Vector3(pos.x, pos.y, pos.z), quaternion.identity);
-            points.GetComponent<PointsEffect>().TextUpdate(punten);
+            points.GetComponent<PointsEffect>().TextUpdate(punten * PlayerController.Instance.multiplier);
             PlayerController.Instance.UpdateScore(punten);
+            PlayerController.Instance.Multiplier();;
         }
     }
 }
